@@ -1,0 +1,11 @@
+language: ruby
+sudo: false
+cache: bundler
+#addons:
+#  code_climate:
+#    repo_token: cedc6c0daf215ad9c9977b06c3ecd18cb5c0e00004ea6de744cec7243002fa9f
+rvm:
+- 2.1
+- 2.2
+script:
+- bundle exec rspec
